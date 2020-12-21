@@ -1,60 +1,64 @@
 .game_container {
- margin: auto;
- width: 50%;
- text-align: center;
- justify-content: center;
- display: flex;
- flex-direction: column;
- align-items: center;
- padding-top: 50px;
-
-
-}
-
-.grid {
-    border-style: solid;
-    margin: 20px;
-    width: 200px;
-    height: 200px;
-    display: flex;
-    flex-wrap: wrap;
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 50px;
 }
 
 .grid div {
-    width: 20px;
+	width: 20px;
     height: 20px;
+    border: 0px solid white;
 }
 
+.grid {
+	margin: 20px;
+	width: 200px;
+	height: 200px;
+	display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    
+}
+
+
+
 .snake {
-    background-color: blue;
+	background-color: blue;
 }
 
 .apple {
-    background-color: blueviolet;
+	background-color: blueviolet;
 }
 
 button.start {
-    padding: 10px;
-    margin: 20px;
-    width: 10rem;
-    border-radius: 20px;
-    background-color: rgb(43, 43, 143);
-    color: white;
-
+	padding: 10px;
+	margin: 20px;
+	width: 10rem;
+	border-radius: 20px;
+	background-color: rgb(43, 43, 143);
+	color: white;
 }
 
 #controller_container {
-    width: 200px;
-    height: 200px;
-
+	width: 200px;
+	height: 200px;
 }
 
 #controller_container button {
-    background-color: indigo;
-    color: white;
-    font-size: 2rem;
-    width: 80px;
-    height: 80px;
-    margin: 5px;
-    text-align: center;
+	background-color: indigo;
+	color: white;
+	font-size: 2rem;
+	width: 80px;
+	height: 80px;
+	margin: 5px;
+	text-align: center;
+}
+
+.wrapper {
+    border: solid black
 }
